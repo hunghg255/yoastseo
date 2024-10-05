@@ -1,0 +1,8 @@
+# Grunt aliases
+---
+# Retrieve the Premium configuration files.
+'get-premium-configuration':
+  - 'shell:get-current-branch'
+  - 'shell:clone-premium-configuration'
+  - 'shell:checkout-premium-configuration'
+  - 'shell:pull-premium-configuration'
